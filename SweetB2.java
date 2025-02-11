@@ -13,7 +13,7 @@ public class SweetB2 {
             students.add(sc.nextLine());
             } 
             for (int i = 0; i < students.size(); i++) {
-                System.out.println(students.get(i));
+                System.out.println("name: " + students.get(i));
             }
         }
     }
